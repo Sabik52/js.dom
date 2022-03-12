@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #second-title{
+            background-color: blueviolet;
+        } */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My blog</h1>
+    </header>
+    <main>
+        <article>
+            <h3>My Awsome Blog-1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde ea optio soluta rerum, vitae necessitatibus ipsum, voluptatibus assumenda quaerat beatae itaque illo ullam quos repellendus pariatur vero nulla similique veritatis.</p>
+        </article>
+        <article>
+            <h3 id="second-title">My Awsome Blog-2</h3>
+            <p>Voluptates cupiditate dolor alias, nemo harum doloribus autem nostrum, aperiam exercitationem libero suscipit, excepturi sapiente officia. Reprehenderit accusamus, quasi similique voluptatibus laudantium vero ea, et rerum reiciendis nesciunt voluptates modi!</p>
+        </article>
+        <article>
+            <h3>My Awsome Blog-3</h3>
+            <p>Laborum, voluptatibus rerum, explicabo sapiente quos excepturi dolorum natus odit deleniti cupiditate velit veritatis? Doloribus quas officia laboriosam facere, sed quae ducimus, quos pariatur numquam perferendis ut minus voluptatem nam?</p>
+        </article>
+    </main>
+    
+    <script>
+        // const student = {name: 'rakib', age: 20, hieght: 20}
+        // // console.log(document.body);
+        // const blogTitles = document.getElementsByTagName('article')
+        // for (const h3 of blogTitles){
+        //     console.log(h3.innerText);
+        // }
+        // console.log(blogTitles)
+        // const blogDetails = document.getElementsByTagName('p');
+        // for(const p of blogDetails){
+        //     console.log(p.innerText);
+        // }
+
+        const secondtitle = document.getElementById('second-title');
+        secondtitle.style.textAlign= 'center';
+        secondtitle.style.backgroundColor = 'yellow'
+        secondtitle.style.padding = '20px'
+        secondtitle.style.border = '2px, solid, green'
+        secondtitle.innerText = 'This is Second Title'
+    </script>
+</body>
+</html>
